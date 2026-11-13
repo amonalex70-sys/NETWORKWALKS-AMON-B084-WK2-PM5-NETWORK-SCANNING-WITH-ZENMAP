@@ -71,3 +71,48 @@ The practical activities include:
 | DNS Server | To be determined |
 
 
+## ⚙️ Zenmap Installation and Setup Steps
+
+## Step 1: Install Zenmap on Kali Linux
+
+Zenmap, the graphical user interface for Nmap, was installed on Kali Linux to provide a visual interface for network scanning, host discovery, and network mapping.
+
+**Installation command:**
+```bash
+sudo apt update
+sudo apt install zenmap -y
+```
+
+## Step 2: Identify the Local IP Address and Network Subnet
+
+Identify the local machine's IP address, network interface, and LAN subnet to determine the network range for scanning with Zenmap.
+
+**Command:**
+```bash
+ip addr
+```
+
+<img width="1362" height="442" alt="ip addr" src="https://github.com/user-attachments/assets/e319ab94-b234-4a70-ad65-9e0d7f05c1a0" />
+
+**Network Configuration:**
+
+| Parameter | Identified Value |
+|---|---|
+| Network Interface | WLAN |
+| Local IP Address | `192.168.8.150/24` |
+| Subnet Mask | `255.255.255.0` |
+| Network ID | `192.168.8.0/24` |
+
+
+## Step 3: Launch Zenmap and Configure the Scan
+
+Open Zenmap from the Kali Linux applications menu. Enter your local network ID in the **Target** field using preffered CIDR notation `10.0.0.0/24 then select **quick scan** from the **Profile** dropdown menu.
+
+
+
+
+
+
+
+
+
