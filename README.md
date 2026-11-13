@@ -92,8 +92,6 @@ Identify the local machine's IP address, network interface, and LAN subnet to de
 ip addr
 ```
 
-<img width="1362" height="442" alt="ip addr" src="https://github.com/user-attachments/assets/e319ab94-b234-4a70-ad65-9e0d7f05c1a0" />
-
 **Network Configuration:**
 
 | Parameter | Identified Value |
@@ -106,7 +104,21 @@ ip addr
 
 ## Step 3: Launch Zenmap and Configure the Scan
 
-Open Zenmap from the Kali Linux applications menu. Enter your local network ID in the **Target** field using preffered CIDR notation `10.0.0.0/24 then select **quick scan** from the **Profile** dropdown menu.
+Open Zenmap from the Kali Linux applications menu. Enter your local network ID in the **Target** field using preffered CIDR notation then select **quick scan** from the **Profile** dropdown menu.
+
+<img width="1035" height="211" alt="Zenmap" src="https://github.com/user-attachments/assets/8c820dd4-3519-4c36-b35b-838c78b41022" />
+
+
+## Step 4: Perform Network Discovery
+
+Click the **Scan** button to start the Quick Scan. Zenmap will scan the specified network and display discovered hosts and their available information.
+
+**Identified Hosts:**
+
+| Host | IP Address | Description |
+|---|---|---|
+| Router | `192.168.8.1` | Network gateway |
+| Host PC | `192.168.9.150` | Local computer |
 
 
 
