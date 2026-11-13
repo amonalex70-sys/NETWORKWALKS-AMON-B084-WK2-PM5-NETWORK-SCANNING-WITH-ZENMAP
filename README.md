@@ -20,27 +20,26 @@ Network discovery and host identification using Zenmap on Kali Linux.
 </p>
 </div>
 
-
-## 🛡️ Network Discovery and Scanning Overview
+## 🌐 Network discovery and scanning overview
 
 This project documents the use of **Zenmap on Kali Linux** to perform network scanning, discover active hosts, and identify devices connected to a local network.
 
 The practical exercises involve identifying live hosts, examining their IP and MAC addresses, and generating a network topology map to understand the structure of the local network.
 
-## 🎯 Project Objectives
+## 📋 Network Scanning Objectives
 
-The primary objectives of this project are to:
+The main objectives of this lab are to:
 
 - Install and configure Zenmap on Kali Linux.
 - Identify the local IP address and LAN subnet.
-- Perform network scanning using Zenmap's Ping Scan.
+- Perform network scanning using Zenmap's quick scan.
 - Discover active hosts within the local network.
 - Identify the IP and MAC addresses of discovered hosts.
 - Determine the number of active devices on the network.
 - Generate and export a network topology map in PDF format.
 - Understand network discovery and scanning techniques using Zenmap.
 
-## 🛡️ Lab Purpose and Security Scope
+## 🖧 network Scanning Purpose and Scope
 
 This project provides practical experience in network scanning and host discovery using Zenmap on Kali Linux. It focuses on identifying active devices and understanding the structure of a local network.
 
@@ -120,11 +119,87 @@ Click the **Scan** button to start the Quick Scan. Zenmap will scan the specifie
 | Router | `192.168.8.1` | Network gateway |
 | Host PC | `192.168.9.150` | Local computer |
 
+<img width="862" height="627" alt="Zenmap Scan Results" src="https://github.com/user-attachments/assets/88261117-21bb-4efd-a25a-e5311b099e90" />
 
 
+## Step 5: Identify live hosts and their network details
+
+Review the scan results to identify active hosts, their IP and MAC addresses, and open services.
+
+**Identified Hosts:**
+
+| Hostname | IP Address | MAC Address | Open Services |
+|---|---|---|---|
+| `www.huaweimobilewifi.com` | `192.168.8.1` | `E2:57:9C:99:62:4A` | DNS (53), HTTP (80), HTTPS (443) |
+| `R3d3f1n3dZ3r0` | `192.168.8.150` | Not reported | RealServer (7070) |
 
 
+## Step 6: Generate Network Topology Map
+
+Open the **Topology** tab in Zenmap to view the graphical representation of the discovered hosts and their network relationships. Enable the legend and export the topology map in PDF format for documentation.
 
 
+<img width="862" height="627" alt="Zenmap Topology" src="https://github.com/user-attachments/assets/e0e5dca6-d4c8-4ae1-a223-3668a12b3e55" />
 
 
+# 💡 What I Learned
+
+Through this project, I gained practical experience in network scanning and host discovery using Zenmap on Kali Linux.
+
+The most important concepts I learned include:
+
+### 1. Network Identification
+
+I learned how to identify the local IP address, network interface, subnet mask, and network ID to determine the target network for scanning.
+
+### 2. Network Scanning with Zenmap
+
+I learned how to use Zenmap's graphical interface, configure scan targets, select scan profiles, and perform network scans using Nmap.
+
+### 3. Host Discovery
+
+I learned how to discover active hosts within a local network and determine the number of devices responding to the scan.
+
+### 4. IP and MAC Address Identification
+
+I learned how to examine scan results to identify host IP addresses and available MAC address information.
+
+### 5. Open Port and Service Identification
+
+I gained experience identifying open ports and their associated services, including DNS, HTTP, HTTPS, and RealServer.
+
+### 6. Network Topology Mapping
+
+I learned how to use Zenmap's Topology tab to visualize discovered hosts and export the network topology map in PDF format.
+
+### 7. Scan Results Analysis and Documentation
+
+I learned how to interpret Nmap scan results, analyze discovered hosts, and document findings using screenshots and structured technical reports.
+
+---
+
+# 🔐 Security & Ethical Use
+
+This project is intended for educational purposes and authorized network assessment. Scanning must only be performed on networks you own or have explicit permission to assess.
+
+---
+
+# 🔗 Tools & Resources
+
+- **Zenmap / Nmap:** https://nmap.org/download.html
+- **Kali Linux:** https://www.kali.org/get-kali/
+
+---
+
+# 👤 Author
+
+**Amon Alex**  
+Cybersecurity Student B084 | Electronics, Telecommunications & Cybersecurity
+
+**LinkedIn:** [Amon Alex](https://www.linkedin.com/in/amon-lowasa-60877a42a/)
+
+---
+
+## 📌 Project Information
+
+**Program Name:** Cybersecurity at NetworkWalks | **Week:** 02 | **Project:** Network Scanning with Zenmap | **Repository:** GitHub
