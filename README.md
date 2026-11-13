@@ -11,7 +11,7 @@ Network discovery and host identification using Zenmap on Kali Linux.
   <img src="https://img.shields.io/badge/Tool-Zenmap-0070C0?style=flat-square&labelColor=000000" />
   <img src="https://img.shields.io/badge/Engine-Nmap-238F89?style=flat-square&labelColor=000000" />
   <img src="https://img.shields.io/badge/Operating%20System-Kali%20Linux-E87500?style=flat-square&labelColor=000000&logo=kalilinux&logoColor=white" />
-  <img src="https://img.shields.io/badge/Scan%20Type-Ping%20Scan-C00000?style=flat-square&labelColor=000000" />
+  <img src="https://img.shields.io/badge/Scan%20Type-Quick%20Scan-C00000?style=flat-square&labelColor=000000" />
   <img src="https://img.shields.io/badge/Focus-Network%20Discovery-404040?style=flat-square&labelColor=C00000" />
   <img src="https://img.shields.io/badge/Platform-GitHub-404040?style=flat-square&labelColor=0070C0&logo=github&logoColor=white" />
   <img src="https://img.shields.io/badge/Program-NetworkWalks-404040?style=flat-square&labelColor=C00000" />
