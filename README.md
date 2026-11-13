@@ -26,7 +26,7 @@ This project documents the use of **Zenmap on Kali Linux** to perform network sc
 
 The practical exercises involve identifying live hosts, examining their IP and MAC addresses, and generating a network topology map to understand the structure of the local network.
 
-## 📋 Network Scanning Objectives
+## 📋 Network scanning objectives
 
 The main objectives of this lab are to:
 
@@ -39,7 +39,7 @@ The main objectives of this lab are to:
 - Generate and export a network topology map in PDF format.
 - Understand network discovery and scanning techniques using Zenmap.
 
-## 🖧 network Scanning Purpose and Scope
+## 🖧 Network scanning purpose and scope
 
 This project provides practical experience in network scanning and host discovery using Zenmap on Kali Linux. It focuses on identifying active devices and understanding the structure of a local network.
 
@@ -53,7 +53,7 @@ The practical activities include:
 
 **⚠️ Security Notice:** Network scanning must only be performed on networks you own or have explicit permission to assess. Unauthorized scanning is strictly prohibited.
 
-## ⚙️ Cybersecurity Lab System Specifications
+## ⚙️ Network scanning system specifications
 
 | Component | Configuration |
 |---|---|
@@ -61,16 +61,17 @@ The practical activities include:
 | Host RAM | 8 GB |
 | Processor | Intel Core i5 |
 | Network Scanning Tool | Zenmap |
-| Scanning Engine | Nmap |
-| Scan Type | Ping Scan |
+| Scanning Engine | Nmap 7.991 |
+| Scan Type | Quick Scan |
+| Network Interface | WLAN |
 | Network Environment | Local Area Network (LAN) |
-| Network Address | To be determined |
-| Local IP Address | To be determined |
-| Default Gateway | To be determined |
-| DNS Server | To be determined |
+| Network ID | `192.168.8.0/24` |
+| Local IP Address | `192.168.8.150/24` |
+| Subnet Mask | `255.255.255.0` |
+| Default Gateway | `192.168.8.1` |
 
 
-## ⚙️ Zenmap Installation and Setup Steps
+## ⚙️ Zenmap installation and setup steps
 
 ## Step 1: Install Zenmap on Kali Linux
 
@@ -82,7 +83,7 @@ sudo apt update
 sudo apt install zenmap -y
 ```
 
-## Step 2: Identify the Local IP Address and Network Subnet
+## Step 2: Identify the local IP address and network subnet
 
 Identify the local machine's IP address, network interface, and LAN subnet to determine the network range for scanning with Zenmap.
 
